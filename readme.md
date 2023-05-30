@@ -24,6 +24,7 @@ npm i --save-dev ajv
 ```
 
 <h3>Для запуска в режиме разработки:</h3>
+
 ```bash
 npm run start-dev
 ```
@@ -33,6 +34,7 @@ http://192.168.1.58:8080/
 
 
 <h3>Для запуска в рабочем режиме:</h3>
+
 ```bash
 npm run start-prod
 ```
@@ -41,6 +43,7 @@ npm run start-prod
 http://192.168.1.58:8080/
 
 <h3>Для запуска JSON-сервера:</h3>
+
 ```bash
 json-server --watch db.json
 ```
@@ -50,6 +53,7 @@ http://localhost:3000
 
 
 <h3>Для коммита с запуском линтера:</h3>
+
 ```bash
 git commit -a -m "commit"
 ```
